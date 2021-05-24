@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+
+    "lib": ["dom","DOM.Iterable", "esnext"], //adicona funcionalidade, define tipagens que antes nao teriamos  ex: InputHtmlAtributes                               
+    "allowJs": true,                         //fala que podemos ter tanto arquivos JS quanto TS na aplicacao                                                         
+    "jsx": "react-jsx",                      //define a extensao jsx, ou seja, iremos escrever html dentro do JS                       
+    "noEmit": true,                                                   
+    "strict": true,                          // Entra no mode strict do JS        
+    "moduleResolution": "node",              // Add possibilidade de importar arquivos JSON
+    "resolveJsonModule": true,
+    "isolatedModules": true,                       
+    "esModuleInterop": true,                                     
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src"]                        // Onde esta o codigo?
+}
